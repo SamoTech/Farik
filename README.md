@@ -2,12 +2,28 @@
 
 > Free forever. Pro when you're ready.
 
-![Nexus HR Dashboard](https://img.shields.io/badge/Status-Active-00e5a0?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)
-![Open Source](https://img.shields.io/badge/Open%20Source-❤️-ff4d6d?style=flat-square)
+[![Status](https://img.shields.io/badge/Status-Live-00e5a0?style=flat-square)](https://nexus-hr-gold.vercel.app)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+[![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)](https://react.dev)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square)](https://nexus-hr-gold.vercel.app)
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-ff4d6d?style=flat-square)](https://github.com/SamoTech/nexus-hr)
 
-**Nexus HR** is a modern, open-source Human Resource Management System (HRMS) built to solve problems that legacy HR tools ignore — attrition prediction, burnout detection, transparent freemium, and a design that doesn't feel like it's from 2008.
+**Nexus HR** is a modern, open-source Human Resource Management System (HRMS) built to solve the problems that legacy HR tools ignore — attrition prediction, burnout detection, transparent freemium, and a design that doesn't feel like it's from 2008.
+
+🔗 **Live Demo:** [nexus-hr-gold.vercel.app](https://nexus-hr-gold.vercel.app)  
+💻 **GitHub:** [github.com/SamoTech/nexus-hr](https://github.com/SamoTech/nexus-hr)
+
+---
+
+## 🎮 Try It Now — Demo Accounts
+
+No signup needed. Click any account on the sign-in screen or use these credentials:
+
+| Role | Email | Password | Access |
+|---|---|---|---|
+| 👑 HR Admin | `admin@nexushr.com` | `admin123` | ⭐ Full Pro |
+| 👔 HR Manager | `manager@nexushr.com` | `manager123` | Free Tier |
+| 👁️ Viewer | `viewer@nexushr.com` | `viewer123` | Read Only |
 
 ---
 
@@ -30,6 +46,7 @@
 - **📋 Recruitment Pipeline** — Kanban board: Screening → Interview → Assessment → Offer
 - **🎫 Employee Helpdesk** — Internal ticketing for HR requests
 - **📅 Attendance & Leave** — Balances, approval queue, remote/on-site tracking
+- **🔐 Sign In System** — Role-based demo accounts (Admin / Manager / Viewer)
 - **📢 Announcements** — Company-wide communications
 - **📊 Department Analytics** — Headcount breakdown and trends
 
@@ -39,72 +56,69 @@
 
 - **💰 Payroll Engine** — Automated runs, pay slips, tax calc, anomaly detection
 - **🧠 AI Analytics** — Attrition prediction, burnout heatmaps, culture scoring
-- **😊 Mood Pulse** — AI-inferred team sentiment
-- **🔮 Attrition Forecasting** — 90-day flight risk per employee
+- **😊 Mood Pulse** — AI-inferred team sentiment from check-ins
+- **🔮 Attrition Forecasting** — 90-day flight risk scoring per employee
 - **💼 Full Salary Data** — Visibility into compensation across the org
 
 ---
 
-## 🚀 Deploy in 5 Minutes (No Code Needed)
+## 🚀 Deploy Your Own in 5 Minutes
 
 ### Option A: Vercel (Recommended — Free)
 
-1. Fork this repo
+1. Fork this repo → [github.com/SamoTech/nexus-hr/fork](https://github.com/SamoTech/nexus-hr/fork)
 2. Go to [vercel.com](https://vercel.com) → **New Project**
 3. Import your forked repo
-4. Click **Deploy**
-5. Done ✅ — you'll get a live URL instantly
+4. Click **Deploy** — done ✅
 
 ### Option B: Netlify (Also Free)
 
 1. Fork this repo
 2. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
-3. Connect GitHub → select this repo
-4. Build command: `npm run build`
-5. Publish directory: `build`
-6. Click **Deploy** ✅
+3. Build command: `npm run build` · Publish directory: `build`
+4. Click **Deploy** ✅
 
 ### Option C: Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/nexus-hr.git
+git clone https://github.com/SamoTech/nexus-hr.git
 cd nexus-hr
 npm install
 npm start
+# Open http://localhost:3000
 ```
-
-Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
 ## 🗺️ Roadmap
 
-### v1.0 — Current (Frontend Demo)
-- [x] Employee Directory
-- [x] Recruitment Pipeline
-- [x] Helpdesk Ticketing
-- [x] Attendance Tracking
+### ✅ v1.0 — Released
+- [x] Sign In screen with role-based demo accounts
+- [x] Employee Directory with AI risk scoring UI
+- [x] Recruitment Kanban Pipeline
+- [x] Helpdesk Ticketing System
+- [x] Attendance & Leave Tracking
 - [x] Dashboard with live metrics
-- [x] Free vs Pro UI
+- [x] Free vs Pro feature gating
 
-### v1.1 — In Progress
-- [ ] Supabase backend integration
-- [ ] Real authentication (login/signup)
-- [ ] Persistent data storage
-- [ ] Export to CSV/PDF
+### 🔧 v1.1 — In Progress
+- [ ] Supabase backend integration (real database)
+- [ ] Persistent authentication (real login/signup)
+- [ ] Export to CSV / PDF
+- [ ] Email notifications
 
-### v2.0 — Planned
+### 🔮 v2.0 — Planned
 - [ ] Real AI analytics (OpenAI integration)
 - [ ] Payroll calculation engine
-- [ ] Multi-company support
+- [ ] Multi-company / multi-tenant support
 - [ ] Mobile app (React Native)
-- [ ] Slack / email notifications
+- [ ] Slack integration
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! This is an open-source project and we love pull requests.
+Contributions are very welcome! This project is built in public.
 
 ```bash
 # 1. Fork the repo
@@ -124,16 +138,19 @@ git push origin feature/amazing-feature
 
 ## 📄 License
 
-MIT License — free to use, modify, and distribute. See [LICENSE](LICENSE) for details.
+MIT License — free to use, modify, and distribute forever. See [LICENSE](LICENSE).
 
 ---
 
 ## ⭐ Support the Project
 
-If this project helped you, please give it a **star** on GitHub — it helps others discover it!
+If Nexus HR saved you time or inspired you, please **star the repo** — it helps others find it!
 
-**Share it:** [Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Nexus%20HR%20-%20an%20open-source%20HR%20platform!) | [LinkedIn](https://linkedin.com) | [Reddit](https://reddit.com/r/opensource)
+**Share it:**
+[🐦 Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Nexus%20HR%20-%20an%20open-source%20HR%20platform!%20https%3A%2F%2Fnexus-hr-gold.vercel.app) | [💼 LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://nexus-hr-gold.vercel.app) | [🤖 Reddit](https://reddit.com/r/opensource)
 
 ---
 
-Built with ❤️ — Open Source Forever
+<div align="center">
+  Built with ❤️ by <a href="https://github.com/SamoTech">SamoTech</a> — Open Source Forever
+</div>
