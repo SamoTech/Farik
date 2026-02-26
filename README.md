@@ -1,41 +1,35 @@
-# 🚀 Nexus HR — Open Source HR Intelligence Platform
+# 🚀 Farik — Open Source HR Platform
 
-> Free forever. Pro when you're ready.
+> **فريق** = Team in Arabic. Free forever, Pro when you're ready.
 
-[![Status](https://img.shields.io/badge/Status-Live-00e5a0?style=flat-square)](https://nexus-hr-gold.vercel.app)
+[![Status](https://img.shields.io/badge/Status-Live-00e5a0?style=flat-square)](https://farik.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 [![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square)](https://react.dev)
-[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square)](https://nexus-hr-gold.vercel.app)
-[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-ff4d6d?style=flat-square)](https://github.com/SamoTech/nexus-hr)
+[![Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=flat-square)](https://farik.vercel.app)
+[![Open Source](https://img.shields.io/badge/Open%20Source-❤️-ff4d6d?style=flat-square)](https://github.com/SamoTech/Farik)
 
-**Nexus HR** is a modern, open-source Human Resource Management System (HRMS) built to solve the problems that legacy HR tools ignore — attrition prediction, burnout detection, transparent freemium, and a design that doesn't feel like it's from 2008.
+**Farik** is a modern open-source HRMS built for small and growing teams who are tired of paying $200/month for HR tools that lock your data and never fit your workflow.
 
-🔗 **Live Demo:** [nexus-hr-gold.vercel.app](https://nexus-hr-gold.vercel.app)  
-💻 **GitHub:** [github.com/SamoTech/nexus-hr](https://github.com/SamoTech/nexus-hr)
-
----
-
-## 🎮 Try It Now — Demo Accounts
-
-No signup needed. Click any account on the sign-in screen or use these credentials:
-
-| Role | Email | Password | Access |
-|---|---|---|---|
-| 👑 HR Admin | `admin@nexushr.com` | `admin123` | ⭐ Full Pro |
-| 👔 HR Manager | `manager@nexushr.com` | `manager123` | Free Tier |
-| 👁️ Viewer | `viewer@nexushr.com` | `viewer123` | Read Only |
+🔗 **Live Demo:** [farik.vercel.app](https://farik.vercel.app)  
+💻 **GitHub:** [github.com/SamoTech/Farik](https://github.com/SamoTech/Farik)
 
 ---
 
-## ✨ Why Nexus HR?
+## 🎮 Try It Now — Sign Up Free
 
-| Problem with other HR tools | Nexus HR's answer |
+Go to [farik.vercel.app](https://farik.vercel.app) and create a free account in seconds.
+
+---
+
+## ✨ Why Farik?
+
+| Problem with legacy HR tools | Farik's answer |
 |---|---|
-| Ugly, outdated UI | Dark, modern, fast interface |
-| Attrition is always a surprise | AI risk flags per employee (Pro) |
-| Burnout goes undetected | Mood Pulse + overtime heatmaps (Pro) |
-| Expensive from day 1 | Free core, Pro when you scale |
-| Closed source, vendor lock-in | MIT licensed — own your data |
+| Costs $150-300/month | Free core, $29/mo Pro |
+| Your data on their servers | Self-host, own everything |
+| Ugly, slow UI | Dark, modern, fast |
+| Attrition always a surprise | AI risk flags per employee (Pro) |
+| Burnout goes undetected | Mood Pulse + heatmaps (Pro) |
 | Complex setup | Deploy in 5 minutes on Vercel |
 
 ---
@@ -43,22 +37,21 @@ No signup needed. Click any account on the sign-in screen or use these credentia
 ## 🆓 Free Features (Forever)
 
 - **👥 People Directory** — Employee profiles, skills, performance scores, risk flags
-- **📋 Recruitment Pipeline** — Kanban board: Screening → Interview → Assessment → Offer
+- **📋 Recruitment Pipeline** — Kanban: Screening → Interview → Assessment → Offer
 - **🎫 Employee Helpdesk** — Internal ticketing for HR requests
-- **📅 Attendance & Leave** — Balances, approval queue, remote/on-site tracking
-- **🔐 Sign In System** — Role-based demo accounts (Admin / Manager / Viewer)
-- **📢 Announcements** — Company-wide communications
-- **📊 Department Analytics** — Headcount breakdown and trends
+- **📅 Attendance & Leave** — Balances, approvals, remote tracking
+- **🔐 Real Authentication** — Sign up / sign in powered by Supabase
+- **📊 Dashboard Analytics** — Live metrics from your real data
 
 ---
 
-## ⭐ Pro Features (Paid)
+## ⭐ Pro Features ($29/month)
 
-- **💰 Payroll Engine** — Automated runs, pay slips, tax calc, anomaly detection
+- **💰 Payroll Engine** — Automated runs, pay slips, anomaly detection
 - **🧠 AI Analytics** — Attrition prediction, burnout heatmaps, culture scoring
-- **😊 Mood Pulse** — AI-inferred team sentiment from check-ins
-- **🔮 Attrition Forecasting** — 90-day flight risk scoring per employee
-- **💼 Full Salary Data** — Visibility into compensation across the org
+- **😊 Mood Pulse** — AI-inferred team sentiment
+- **🔮 Attrition Forecasting** — 90-day flight risk per employee
+- **💼 Full Salary Visibility** — Compensation data across the org
 
 ---
 
@@ -66,23 +59,15 @@ No signup needed. Click any account on the sign-in screen or use these credentia
 
 ### Option A: Vercel (Recommended — Free)
 
-1. Fork this repo → [github.com/SamoTech/nexus-hr/fork](https://github.com/SamoTech/nexus-hr/fork)
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your forked repo
-4. Click **Deploy** — done ✅
+1. Fork → [github.com/SamoTech/Farik/fork](https://github.com/SamoTech/Farik/fork)
+2. Go to [vercel.com](https://vercel.com) → **New Project** → Import your fork
+3. Click **Deploy** ✅
 
-### Option B: Netlify (Also Free)
-
-1. Fork this repo
-2. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
-3. Build command: `npm run build` · Publish directory: `build`
-4. Click **Deploy** ✅
-
-### Option C: Run Locally
+### Option B: Run Locally
 
 ```bash
-git clone https://github.com/SamoTech/nexus-hr.git
-cd nexus-hr
+git clone https://github.com/SamoTech/Farik.git
+cd Farik
 npm install
 npm start
 # Open http://localhost:3000
@@ -92,65 +77,54 @@ npm start
 
 ## 🗺️ Roadmap
 
-### ✅ v1.0 — Released
-- [x] Sign In screen with role-based demo accounts
-- [x] Employee Directory with AI risk scoring UI
-- [x] Recruitment Kanban Pipeline
-- [x] Helpdesk Ticketing System
-- [x] Attendance & Leave Tracking
-- [x] Dashboard with live metrics
-- [x] Free vs Pro feature gating
+### ✅ v2.0 — Current (Live)
+- [x] Real Sign Up / Sign In (Supabase Auth)
+- [x] Employee CRUD — real database
+- [x] Recruitment pipeline
+- [x] Helpdesk ticketing
+- [x] Payroll engine (Pro)
+- [x] Analytics from live data (Pro)
 
-### 🔧 v1.1 — In Progress
-- [ ] Supabase backend integration (real database)
-- [ ] Persistent authentication (real login/signup)
-- [ ] Export to CSV / PDF
+### 🔧 v2.1 — Coming Soon
+- [ ] CSV / PDF export
 - [ ] Email notifications
+- [ ] Arabic UI option
+- [ ] Stripe payments for Pro
 
-### 🔮 v2.0 — Planned
-- [ ] Real AI analytics (OpenAI integration)
-- [ ] Payroll calculation engine
-- [ ] Multi-company / multi-tenant support
+### 🔮 v3.0 — Planned
+- [ ] Real AI analytics (OpenAI)
+- [ ] Multi-company support
 - [ ] Mobile app (React Native)
-- [ ] Slack integration
+- [ ] Slack / WhatsApp integration
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are very welcome! This project is built in public.
-
 ```bash
-# 1. Fork the repo
-# 2. Create your feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Commit your changes
-git commit -m 'Add some amazing feature'
-
-# 4. Push to the branch
-git push origin feature/amazing-feature
-
-# 5. Open a Pull Request
+git checkout -b feature/your-feature
+git commit -m 'Add your feature'
+git push origin feature/your-feature
+# Open a Pull Request
 ```
 
 ---
 
 ## 📄 License
 
-MIT License — free to use, modify, and distribute forever. See [LICENSE](LICENSE).
+MIT — free to use, modify, and self-host forever.
 
 ---
 
 ## ⭐ Support the Project
 
-If Nexus HR saved you time or inspired you, please **star the repo** — it helps others find it!
+If Farik saved your team money, please **star the repo** ⭐
 
-**Share it:**
-[🐦 Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Nexus%20HR%20-%20an%20open-source%20HR%20platform!%20https%3A%2F%2Fnexus-hr-gold.vercel.app) | [💼 LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://nexus-hr-gold.vercel.app) | [🤖 Reddit](https://reddit.com/r/opensource)
+**Share:**
+[🐦 Twitter](https://twitter.com/intent/tweet?text=Check%20out%20Farik%20-%20free%20open-source%20HR%20platform!%20https%3A%2F%2Ffarik.vercel.app) | [💼 LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://farik.vercel.app) | [🤖 Reddit](https://reddit.com/r/opensource)
 
 ---
 
 <div align="center">
-  Built with ❤️ by <a href="https://github.com/SamoTech">SamoTech</a> — Open Source Forever
+Built with ❤️ by <a href="https://github.com/SamoTech">SamoTech</a> — Open Source Forever
 </div>
