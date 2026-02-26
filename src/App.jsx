@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 // ============================================================
 // NEXUS HR — Open Source Human Resource Intelligence Platform
@@ -258,7 +258,6 @@ const Sidebar = ({ active, setActive, isPro }) => (
 
 const Dashboard = ({ isPro }) => {
   const highRisk = EMPLOYEES.filter(e => e.risk === "high").length;
-  const onLeave = EMPLOYEES.filter(e => e.status === "leave").length;
   return (
     <div>
       <div style={{ marginBottom: "28px" }}>
