@@ -1,5 +1,13 @@
 # 🚀 Farik — Open Source HR Platform
 
+<div align="center">
+
+![Farik](docs/assets/banner.svg)
+
+<img src="docs/assets/logo.svg" alt="Farik Logo" width="64" height="64" />
+
+</div>
+
 > **فريق** = Team in Arabic. Free forever, Pro when you're ready.
 
 [![Status](https://img.shields.io/badge/Status-Live-00e5a0?style=flat-square)](https://farik.vercel.app)

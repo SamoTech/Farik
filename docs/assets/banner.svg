@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg-fk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#08111a"/>
+      <stop offset="100%" style="stop-color:#0b1c14"/>
+    </linearGradient>
+    <linearGradient id="accent-fk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00e5a0"/>
+      <stop offset="100%" style="stop-color:#437a22"/>
+    </linearGradient>
+    <pattern id="grid-fk" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0d2218" stroke-width="1"/>
+    </pattern>
+    <filter id="glow-fk">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg-fk)"/>
+  <rect width="1280" height="320" fill="url(#grid-fk)"/>
+  <rect x="0" y="0" width="4" height="320" fill="url(#accent-fk)"/>
+  <g opacity="0.18" transform="translate(900, 40)">
+    <circle cx="80"  cy="80"  r="28" fill="#00e5a0"/>
+    <ellipse cx="80" cy="148" rx="44" ry="32" fill="#00e5a0"/>
+    <circle cx="180" cy="72"  r="24" fill="#437a22"/>
+    <ellipse cx="180" cy="134" rx="38" ry="28" fill="#437a22"/>
+    <circle cx="280" cy="80"  r="28" fill="#00e5a0"/>
+    <ellipse cx="280" cy="148" rx="44" ry="32" fill="#00e5a0"/>
+    <line x1="108" y1="80"  x2="156" y2="72"  stroke="#00e5a0" stroke-width="2" opacity="0.6"/>
+    <line x1="204" y1="72"  x2="252" y2="80"  stroke="#00e5a0" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g transform="translate(80, 90)" filter="url(#glow-fk)">
+    <circle cx="60" cy="60" r="56" fill="#0d2218" stroke="url(#accent-fk)" stroke-width="3"/>
+    <text x="34" y="82" font-family="Arial Black,sans-serif" font-size="60" font-weight="900" fill="url(#accent-fk)">F</text>
+    <circle cx="84" cy="28" r="8" fill="#00e5a0" opacity="0.9"/>
+  </g>
+  <text x="222" y="108" font-family="Georgia,serif" font-size="18" fill="#00e5a0" opacity="0.6" letter-spacing="4">فريق — Team</text>
+  <text x="222" y="178" font-family="Arial Black,'Arial Bold',sans-serif" font-size="82" font-weight="900" letter-spacing="-2" fill="#e0f5ec">Farik</text>
+  <text x="224" y="218" font-family="sans-serif" font-size="20" fill="#00e5a0" letter-spacing="3" opacity="0.85">OPEN SOURCE HR PLATFORM</text>
+  <rect x="222" y="232" width="440" height="2" fill="url(#accent-fk)" opacity="0.5"/>
+  <rect x="222" y="250" width="110" height="28" rx="14" fill="#00e5a0" opacity="0.15"/>
+  <text x="277" y="269" font-family="sans-serif" font-size="13" fill="#00e5a0" text-anchor="middle">Free Forever</text>
+  <rect x="344" y="250" width="120" height="28" rx="14" fill="#00e5a0" opacity="0.15"/>
+  <text x="404" y="269" font-family="sans-serif" font-size="13" fill="#00e5a0" text-anchor="middle">Self-Hostable</text>
+  <rect x="476" y="250" width="120" height="28" rx="14" fill="#00e5a0" opacity="0.15"/>
+  <text x="536" y="269" font-family="sans-serif" font-size="13" fill="#00e5a0" text-anchor="middle">React · Supabase</text>
+</svg>
